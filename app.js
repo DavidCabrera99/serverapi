@@ -5,7 +5,7 @@ var path = require('path');
 var fs = require('fs-extra');
 
 const app = express();
-const PORT = 3002
+const PORT = process.env.PORT||3001
 app.use('/img',express.static(path.join(__dirname, 'img')))
 app.use(express.json());
 app.use(busboy());
