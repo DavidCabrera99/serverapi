@@ -13,7 +13,8 @@
   "dependencies": {
     "connect-busboy": "^1.0.0",
     "mysql": "^2.18.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "fs-extra": "^1.0.0"
   },
   "engines": {
     "node": ">=14"
