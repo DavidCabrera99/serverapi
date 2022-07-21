@@ -14,7 +14,8 @@
     "connect-busboy": "^1.0.0",
     "mysql": "^2.18.1",
     "express": "^4.16.3",
-    "fs-extra": "^1.0.0"
+    "fs-extra": "^1.0.0",
+    "cors": "^2.8.5"
   },
   "engines": {
     "node": ">=14"

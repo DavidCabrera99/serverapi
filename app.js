@@ -9,6 +9,10 @@ const PORT = process.env.PORT||3001
 app.use('/img',express.static(path.join(__dirname, 'img')))
 app.use(express.json());
 app.use(busboy());
+app.use(cors({
+    origin: 'https://myreactdbblog.netlify.app',
+    credentials: true
+}));
 
 //Get All Users
 app.get("/api/get/users", (req, res) => {
