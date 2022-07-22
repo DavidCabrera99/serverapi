@@ -3,6 +3,7 @@ const express = require('express');
 var busboy = require('connect-busboy');
 var path = require('path');
 var fs = require('fs-extra');
+var cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT||3001
