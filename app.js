@@ -153,10 +153,11 @@ app.get('/api/blog/get/comments/:id',(req, res)=>{
 
 
 const mysql_user = {
-    host: 'sql.freedb.tech',
-    user: 'freedb_david',
-    password: 'n!KKHcUpC8GjWdH',
-    database: 'freedb_myreactdb',
+    host: 'sql5.freemysqlhosting.net',
+    user: 'sql5509462',
+    //password: 'n!KKHcUpC8GjWdH',
+    password: '9eFsxDPQXz',
+    database: 'sql5509462',
     port: 3306,
 }
 const connection = mysql.createConnection(mysql_user, {
